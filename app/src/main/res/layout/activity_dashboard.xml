@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#F5F7FB">
+
+    <TextView
+        android:id="@+id/txtDashboardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NotasApp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#244A73"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido!"
+        android:textSize="20sp"
+        android:textColor="#334155"
+        android:gravity="center"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:id="@+id/btnCreateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear una nota"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnListNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mis notas" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
